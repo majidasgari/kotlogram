@@ -19,6 +19,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.badoualy</groupId>
+            <artifactId>tl-builder</artifactId>
+            <version>0.0.7-beta</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.badoualy</groupId>
+            <artifactId>api</artifactId>
+            <version>0.0.7-beta</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>

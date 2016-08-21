@@ -14,10 +14,16 @@
     </parent>
 
     <build>
+        <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
         <!--fatJar task must be set-->
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.badoualy</groupId>
+            <artifactId>tl</artifactId>
+            <version>0.0.7-beta</version>
+        </dependency>
         <dependency>
             <groupId>io.reactivex</groupId>
             <artifactId>rxjava</artifactId>

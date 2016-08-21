@@ -19,5 +19,15 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.badoualy</groupId>
+            <artifactId>tl</artifactId>
+            <version>0.0.7-beta</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.badoualy</groupId>
+            <artifactId>mtproto</artifactId>
+            <version>0.0.7-beta</version>
+        </dependency>
     </dependencies>
 </project>
