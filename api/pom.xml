@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <artifactId>api</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Kotlogram api Module</name>
+    <parent>
+        <relativePath>../</relativePath>
+        <groupId>com.github.badoualy</groupId>
+        <artifactId>kotlogram</artifactId>
+        <version>0.0.7-beta</version>
+    </parent>
+
+    <build>
+        <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
+        <!--fatJar task must be set-->
+    </build>
+
+    <dependencies>
+    </dependencies>
+</project>
